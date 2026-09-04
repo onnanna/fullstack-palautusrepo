@@ -29,7 +29,7 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [{content: "auf weidersehen", date: "2026-09-03T11:24:01.037Z"},…]
+    server-->>browser: [{content: "test", date: "2026-09-03"},…]
     deactivate server
 
     Note right of browser: The browser executes to render the notes
